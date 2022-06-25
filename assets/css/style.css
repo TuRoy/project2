@@ -1,0 +1,459 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+
+}
+.header{
+
+}
+.header__navbar{
+    position: fixed;
+    min-height: 2000px;
+    background-color: #1a81d3 ;
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+}
+.avat{
+    
+    margin: 142px auto 8px auto;
+}
+.avat-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+.nav{
+
+}
+.nav__navbar{
+    
+    text-align: center;
+    list-style: none;
+    padding: 16px;
+}
+.nav__navbar li{
+    padding: 8px;
+}
+.nav__navbar li a{
+    
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+.nav__navbar li:hover a{
+    color: #000;
+}
+.content{
+    background-color: #f9f9f9 ;
+    padding: 48px 24px;
+}
+.content__bg{
+    padding-bottom: 284px;
+}
+.content__name{
+    padding-top: 250px;
+}
+.content__name-surname{
+    color: #bd5d38;
+    font-size: 66px;
+}
+.content__name-firstname{
+    font-size: 66px;
+}
+.content__address{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content__address-phone{
+    font-size: 1.3rem;
+    color: #6c757d;
+    margin-left: 3px;
+}
+.content__address-mail{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #bd5d38;
+    margin-top: 4px;
+    margin-left: 68px;
+    
+}
+.content__address-mail:hover{
+    text-decoration: underline #bd5d38;
+}
+.content__header-text{
+    color: #666;
+    line-height: 1.4;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.content__header{
+    margin: 48px 0;
+    
+}
+.content__link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content__social{
+    margin-right: 1.5rem;
+    width: 56px;
+    height: 56px;
+    background-color: #495057;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.content__social:hover{
+    background-color: #bd5d38;
+    cursor: pointer;
+}
+.content__social-pg-icon{
+    color: #fff;
+    font-size: 1.4rem;
+}
+.content__exper{
+    padding: 284px 0px;
+    border-top: 1px solid #ccc;
+}
+.content__exper-his{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.content__exper-his-myjob{
+    font-size: 1.6rem;
+    
+}
+.content__exper-his-date{
+    color: #bd5d38;
+    flex-wrap: nowrap;
+}
+.content__haeder{
+    
+}
+.content__exper-his-header{
+    max-width: 600px;
+}
+.experience{
+    font-size: 2.8rem;
+    text-decoration:3px underline #bd5d38;
+}
+.content__haeder-exper-solutions{
+    margin: 6px 0 20px 0;
+    color: #6c757d;
+}
+.content__haeder-exper-text{
+    color: #6c757d;
+    margin-bottom: 48px;
+}
+.content__header-exper-icon{
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 12px;
+    font-size: 3.2rem;
+    
+}
+.exper-icon{
+    color: #6c757d;
+}
+.content__exper-his-text{
+  margin-left: 20px;
+}
+.exper-text{
+    line-height: 1.4;
+    list-style: none;
+    color: #6c757d;
+}
+.exper-text-icon{
+    margin-right: 8px;
+    color: #6c757d;
+    font-size: 0.8rem;
+}
+.content__exper-his-header-interests{
+    width: 1000px;
+}
+
+.awards-icon{
+  font-size: 0.8rem;
+   color: #ffc107;
+   margin-right: 4px;
+}
+.content__header-exper-awards-list{
+    
+    list-style: none; 
+}
+.content__header-exper-awards-list a{
+    text-decoration: none;
+   color: #6c757d;
+   line-height: 1.5;
+   font-size: 1rem;
+   font-weight: 400;
+}
+.content__header-exper-awards{
+    margin-left: 24px;
+}
+.header__menu{
+   display: none;
+    min-height: 56px;
+    width: 100%;
+    background-color: #1a81d3;
+}
+@media (min-width:1025px) {
+    .header__menu{
+        display: none;
+    }
+}
+.myprofile{
+    font-size: 1.25rem;
+    display: inline-block;
+    line-height: 56px;
+    margin-left: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: 1px underline rgba(255, 255, 255, 0.6);
+}
+.haeder__menu-list{
+    display: inline-block;
+    float: right;
+    line-height: 32px;
+    font-size: 1.25rem;
+    margin-right: 18px;
+    margin-top: 8px;
+    
+}
+.haeder__menu-list-icon{
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 6px;
+}
+@media (max-width:1025px) {
+    .content__exper-his{
+        display: block;
+    }
+    .header__menu{
+        display: block;
+    }
+    .content__name{
+        padding-top: 100px;
+    }
+    .content__haeder-exper-solutions{
+        max-width: 596px;
+    }
+    .content__header-exper-awards-list{
+        max-width: 596px;
+    }
+    .content__exper{
+        padding: 142px 0;
+    }
+    .content__bg{
+        padding-bottom: 142px;
+    }
+    .content__haeder-exper-text{
+        margin-bottom: 12px;
+        font-size: 22.4px;
+        line-height: 1.4;
+    }
+    .content__exper-his{
+        margin-bottom: 96px;
+       
+    }
+    .content__exper-his-text{
+        font-size: 22.4px;
+        margin-left: 8px;
+    }
+    .content__haeder-exper-solutions{
+        font-size: 22.4px;
+        line-height: 1.4;
+        display: inline-block;
+    }
+    .content__header-exper-awards-list{
+        font-size: 1.8rem;
+        line-height: 1.4;
+        display: inline-block;
+    }
+    .content__header-exper-awards{
+        max-width: 768px;
+    }
+    .content__exper-his-header-interests{
+        max-width: 596px;
+    }
+    .myprofile{
+        font-size: 1.6rem;
+    }
+    .haeder__menu-list{
+        font-size: 1.6rem;
+    }
+    .header__menu{
+        max-width: 644px;
+    }
+    .nav-mobile{
+        opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.2s ;
+        transform: translateX(250%);
+    }
+    .nav-input:checked ~ .nav-mobile{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+}
+@media (max-width: 720px) {
+    .content__exper-his{
+        display: block;
+    }
+    .nav-mobile{
+        opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.2s ;
+        transform: translateX(100%);
+    }
+    .nav-input:checked ~ .nav-mobile{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    .exper-icon{
+        display: flex;
+        flex-direction: row;
+    }
+    .content__header-exper-icon{
+        display: inline-block;
+    }
+    .content__exper-his-myjob{
+        display: inline-block;
+    }
+    .header__menu{
+        
+        display: block;
+    }
+    .content__name{
+        padding-top: 100px;
+    }
+    .content__haeder-exper-solutions{
+        max-width: 360px;
+    }
+    .content__header-exper-awards-list{
+        max-width: 356px;
+    }
+    .content__exper{
+        padding: 142px 0;
+    }
+    .content__bg{
+        padding-bottom: 142px;
+    }
+    .content__haeder-exper-text,
+    .content__exper-his-myjob
+    {
+        display: inline-block;
+        max-width: 360px;
+      
+    }
+    .content__header-exper{
+        display: inline-block;
+    }
+    .content__header-exper{}
+    .experience{
+        max-width: 350px;
+        font-size: 2.6rem;
+    }
+    .content__haeder-exper-text{
+        margin-bottom: 12px;
+        font-size: 22.4px;
+        line-height: 1.4;
+    }
+    .content__exper-his{
+        margin-bottom: 96px;
+       
+    }
+    .content__exper-his-text{
+        font-size: 22.4px;
+        margin-left: 8px;
+    }
+    .content__haeder-exper-solutions{
+        font-size: 22.4px;
+        line-height: 1.4;
+    }
+    .content__header-exper-awards-list{
+        font-size: 22.4px;
+        line-height: 1.4;
+    }
+}
+.haeder__menu-list{
+    
+    position: relative;
+    
+}
+
+.header__menu{
+    position: fixed;
+}
+.nav-mobile{
+    
+    min-height: 100px;
+    width: 160px;
+    background-color: #1a81d3;
+    position: absolute;
+    right: -18px;
+    top: 48px;
+    border-radius: 2px;
+    box-shadow: 5px rgba(255, 255, 255, 0.6);
+}
+.nav__navbar-mobile li{
+    padding: 4px 18px ;
+    list-style: none;
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nav__navbar-mobile li a{
+    
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+.nav-input:checked ~ .nav-mobile{
+    display: block;
+}
+
+.nav-input{
+    display: none;
+}
+.nav__navbar-mobile li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+@media (max-width: 450px) {
+    .content__header-exper{
+      max-width: 370px;
+    }
+    .ontent__exper-his{
+        max-width: 370px;
+    }
+    .content__exper-his-header{
+        display: inline-block;
+    }
+    .content__exper-his-text{
+        display: inline-block;
+    }
+    .exper-text{
+       
+    }
+    .content__exper-his-header-interests{
+        max-width: 370px;
+    }
+}
